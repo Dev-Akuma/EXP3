@@ -1,16 +1,60 @@
-# React + Vite
+# Experiment 3: Advanced React Router Navigation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates a more advanced routing setup with multiple dashboard-like pages. It includes a dashboard, user profile, and settings page with clean route-based architecture.
 
-Currently, two official plugins are available:
+## Features
+- **Dashboard** - Main landing page with dashboard content
+- **Profile Page** - User profile section
+- **Settings Page** - Application settings page
+- **Multi-page Navigation** - Client-side routing between different sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- React Router DOM
+- Vite
+- JavaScript
 
-## React Compiler
+## Project Structure
+```
+src/
+├── App.jsx          - Main App component with routes
+├── main.jsx         - Entry point
+├── App.css          - Application styles
+├── index.css        - Global styles
+└── assets/          - Static assets
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Installation
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+## Routes
+- `/` - Dashboard Page
+- `/profile` - User Profile Page
+- `/settings` - Settings Page
+
+## Key Components
+- `Dashboard` - Main dashboard component
+- `Profile` - User profile component
+- `Settings` - Application settings component
+- Centralized routing in App component
+
+## Learning Objectives
+- Building applications with multiple route-based pages
+- Organizing components in a router structure
+- Implementing clean and scalable routing architecture
+- Managing application state across multiple pages

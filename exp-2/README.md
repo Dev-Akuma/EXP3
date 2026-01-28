@@ -1,16 +1,60 @@
-# React + Vite
+# Experiment 2: React Router with Navigation Links
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates React Router with interactive navigation links. It includes a dashboard landing page, user profile section with animated welcome message, and button-based navigation between pages.
 
-Currently, two official plugins are available:
+## Features
+- **Dashboard** - Main landing page
+- **Profile Page** - User profile with animated welcome message and profession details
+- **Navigation Buttons** - Interactive links to navigate between pages
+- **Animated Marquee** - Scrolling welcome message on profile page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- React Router DOM
+- Vite
+- JavaScript
+- HTML5 Marquee
 
-## React Compiler
+## Project Structure
+```
+src/
+├── App.jsx          - Main App component with routes and navigation
+├── main.jsx         - Entry point
+├── App.css          - Application styles
+├── index.css        - Global styles
+└── assets/          - Static assets
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Installation
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+## Routes
+- `/` - Dashboard Page
+- `/profile` - User Profile with animated welcome
+- `/dashboard` - Navigation to Dashboard
+
+## Key Components
+- `Dashboard` - Landing page component
+- `Profile` - Profile page with marquee animation and user information
+- Navigation links with styled buttons for page transitions
+
+## Learning Objectives
+- Using React Router Link component for navigation
+- Implementing page-to-page navigation with buttons
+- Adding animations with HTML5 marquee element
+- Creating interactive user interface elements

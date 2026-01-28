@@ -47,11 +47,21 @@ npm run build
 - `/profile` - User Profile Page
 - `/settings` - Settings Page
 
+## Screenshots
+
+### Dashboard
+The dashboard showcases a deep blue gradient background with cyan-green accents, featuring a "Quick Stats" card with glassmorphism effects.
+
+![Dashboard](exp-3-dashboard.png)
+
+### Profile Page
+The profile page displays professional information for "M.Devasis - Full Stack Developer | Tech Enthusiast" in an elegant card layout with smooth animations.
+
+![Profile](exp-3-profile.png)
+
 ## Key Components
 - `Dashboard` - Main dashboard component
 - `Profile` - User profile component
-- `Settings` - Application settings component
-- Centralized routing in App component
 
 ## Learning Objectives
 - Building applications with multiple route-based pages

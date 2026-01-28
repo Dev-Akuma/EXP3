@@ -48,6 +48,18 @@ npm run build
 - `/profile` - User Profile with animated welcome
 - `/dashboard` - Navigation to Dashboard
 
+## Screenshots
+
+### Dashboard
+The dashboard features a stunning purple-pink gradient background with a welcoming message and project tracking card.
+
+![Dashboard](exp-2-dashboard.png)
+
+### Profile Page
+The profile page includes an animated marquee welcome message, professional details, and a glassmorphism bio card showcasing "M.Devasis Singh - Full Stack Developer".
+
+![Profile Page](exp-2-profile.png)
+
 ## Key Components
 - `Dashboard` - Landing page component
 - `Profile` - Profile page with marquee animation and user information

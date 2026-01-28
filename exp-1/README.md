@@ -46,6 +46,19 @@ npm run build
 - `/contact` - Contact Page
 - `/about` - About Page
 
+## Screenshots
+
+### Home Page
+The landing page features a beautiful blue gradient background with a welcoming home icon and navigation menu.
+
+![Home Page](exp-1-homepage.png)
+
+### About Page
+The about page showcases the mission and vision with elegant typography and glassmorphism design.
+
+![About Page](exp-1-about.png)
+
+
 ## Learning Objectives
 - Understanding React Router basics
 - Implementing client-side routing
